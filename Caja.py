@@ -1,8 +1,5 @@
-from DetallePedido import DetallePedido
-from MedioDePago import MedioDePago
-from Usuario import Usuario
 
-class Caja(DetallePedido,Usuario,MedioDePago):
+class Caja():
     def __init__(self, Cambio=float,Pago=float):
         self.Cambio = Cambio
         self.Pago = Pago
