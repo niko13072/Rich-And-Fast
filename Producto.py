@@ -1,4 +1,4 @@
-class Producto: # aqui va el numero de la clase, si depronto ella hereda de otra se coloca entre parentesis (de quien hereda)
+class Producto(): # aqui va el numero de la clase, si depronto ella hereda de otra se coloca entre parentesis (de quien hereda)
 
     def __init__(self, NombreProducto=str, Precio=float, Descripcion=str): # aqui se definen los atributos
         self.NombreProducto = NombreProducto # aqui se coloca tambien cada uno 
