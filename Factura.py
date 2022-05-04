@@ -1,4 +1,6 @@
-class Factura():
+import imp
+from Pedido import Pedido
+class Factura(Pedido):
 
     def __init__(self, Cambio=float, Pago=float):
         self.Cambio = Cambio

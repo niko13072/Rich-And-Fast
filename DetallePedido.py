@@ -1,4 +1,4 @@
-class DetallePedido():
+class DetallePedido(e):
 
     #constructor
     def __init__(self,CantidadProducto=int,ValorUnitario=float):
