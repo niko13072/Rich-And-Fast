@@ -1,9 +1,9 @@
-from Factura import Factura
 
 
-class Pedido(DetallePedido, Factura):
 
-    def __init__(self, NumeroPedido=int, Fecha=string, Total=float, NumeroMesa=int):
+class Pedido():
+
+    def __init__(self, NumeroPedido=int, Fecha=str, Total=float, NumeroMesa=int):
         self.NumeroPedido = NumeroPedido
         self.Fecha = Fecha
         self.Total = Total

@@ -3,8 +3,8 @@ from Usuario import Usuario
 
 class Administrador(Usuario):
 
-    def __init__(self, Email):
-        self.Email =Email
+    def __init__(self, Email=str):
+        self.Email = Email
 
     def ActualizarProductos(self):
         print("Producto Actualizado")

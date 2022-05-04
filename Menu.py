@@ -1,9 +1,7 @@
-from Producto import Producto
 
+class Menu():
 
-class Menu(Producto):
-
-    def __init__(self, Nombre, Categoria):
+    def __init__(self, Nombre=str, Categoria=str):
         self.Nombre = Nombre
         self.Categoria = Categoria
         
@@ -14,7 +12,7 @@ class Menu(Producto):
     def ModificarMenu(self):
         return (self.Nombre,self.Categoria)
 
-    print("1")
+   
 
 
 

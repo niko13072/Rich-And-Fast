@@ -6,4 +6,4 @@ class Restaurante():
         self.CantidadEmpleados = CantidadEmpleados
 
     def GenerarVentas(self):
-        print("")
+        print("las ventas fueron")

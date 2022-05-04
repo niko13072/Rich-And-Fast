@@ -1,8 +1,6 @@
-import string
+class Reservas():
 
-class Reservas:
-
-    def __init__(self, Fecha=string, Hora=float, NombreReserva=string, NumReserva=int)
+    def __init__(self, Fecha=str, Hora=float, NombreReserva=str, NumReserva=int):
        self.Fecha = Fecha
        self.Hora = Hora
        self.NombreReserva = NombreReserva

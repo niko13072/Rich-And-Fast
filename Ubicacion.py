@@ -1,8 +1,6 @@
-import string
+class Ubicacion():
 
-class Ubicacion:
-
-    def __init__(self, Direccion=string, Ciudad=string, Pais=string):
+    def __init__(self, Direccion=str, Ciudad=str, Pais=str):
         self.Direccion = Direccion
         self.Ciudad = Ciudad
         self.Pais = Pais

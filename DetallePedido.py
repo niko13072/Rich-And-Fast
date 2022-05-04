@@ -1,6 +1,4 @@
-from Producto import Producto
-
-class DetallePedido(Producto):
+class DetallePedido():
 
     #constructor
     def __init__(self,CantidadProducto=int,ValorUnitario=float):
