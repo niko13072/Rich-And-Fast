@@ -2,7 +2,10 @@
 
 
 
-class Cliente():
+from Usuario import Usuario
+
+
+class Cliente(Usuario):
 
     def __init__(self,NumeroMesa=int,CodigoQr=str,Telefono=int):
         self.NumeroMesa = NumeroMesa
