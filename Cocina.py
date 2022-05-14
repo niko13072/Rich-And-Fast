@@ -1,11 +1,13 @@
-from Pedido import Pedido
+import Pedido
 
-class Cocina(Pedido):
 
-    def __init__(self,TiempoPreparacion=float,PedidoListo=bool,PedidoCancelado=bool):
+class Cocina():
+
+    def __init__(self,TiempoPreparacion=float,):
+        self.Pedido = Pedido
+        self.Producto = Producto
         self.TiempoPreparacion = TiempoPreparacion
-        self.PedidoListo = PedidoListo
-        self.PedidoCancelado = PedidoCancelado
+        
     
     def PrepararPedido(self):
         print("Cocinando Pedido")
