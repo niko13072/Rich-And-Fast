@@ -7,6 +7,8 @@ class Cocina():
         self.Pedido = Pedido
         self.Producto = Producto
         self.TiempoPreparacion = TiempoPreparacion
+
+        
         
     
     def PrepararPedido(self):
