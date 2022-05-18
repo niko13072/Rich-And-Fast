@@ -1,13 +1,11 @@
-
-
-
-
+from ast import Str
 from Usuario import Usuario
 
 
 class Cliente(Usuario):
 
-    def __init__(self,NumeroMesa=int,CodigoQr=str,Telefono=int):
+    def __init__(self,Id,Cargo,Nombre,Documento,Edad,sexo,NumeroMesa:int,CodigoQr:Str,Telefono:int):
+        super().__init__(Id,Cargo,Nombre,Documento,Edad,sexo)
         self.NumeroMesa = NumeroMesa
         self.CodigoQr = CodigoQr
         self.Telefono = Telefono
