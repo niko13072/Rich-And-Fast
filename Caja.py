@@ -1,6 +1,3 @@
-
-
-
 class Caja():
     def __init__(self, Cambio=float,Pago=float):
         self.Cambio = Cambio
