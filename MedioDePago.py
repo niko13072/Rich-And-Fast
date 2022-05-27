@@ -1,7 +1,8 @@
 class MedioDePago():
 
-    def __init__(self, Efectivo =bool, Tarjeta=bool):
-        self.Efectivo = Efectivo
+
+    def __init__(self, Efectivo:bool, Tarjeta:bool):
+        self.Efectivo = Tarjeta
         self.Tarjeta = Tarjeta
 
     def PagarFactura(self):
