@@ -3,9 +3,15 @@ from Usuario import Usuario
 
 class Administrador(Usuario):
  
-    def __init__(self,Id,password,Cargo,Nombre,Documento,Edad,Sexo,Email=str):
-        super().__init__(Id,password,Cargo,Nombre,Documento,Edad,Sexo)
-        self.Email = Email
+    def __init__(self,id,password,documento,email:str):
+        super().__init__(id,password,documento)
+        self.Email = email
+    
+    def AdministrarRestaurante(self):
+        print("Restaurante Administrado")
+    
+    def PagarNomina(self):
+        print("Nomina Pagada")
 
     def ActualizarProductos(self):
         print("Producto Actualizado")
