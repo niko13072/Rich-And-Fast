@@ -8,7 +8,7 @@ class Cliente(Usuario):
     Telefono:int
 
     def __init__(self,numeroMesa:str, nombre:str, id:str, pedido:Pedido):
-        super().__init__()
+        super().__init__(nombre,id)
         self.NumeroMesa = numeroMesa
         self.Pedido = pedido
        
