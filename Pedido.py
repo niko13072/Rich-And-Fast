@@ -2,7 +2,9 @@ class Pedido():
 
     Fecha: str
     NumeroPedido: int
-    def __init__(self, Total:float, NumeroMesa:int, PedidoCancelado:bool, PedidoListo:bool):
+    pedidoCancelado: bool 
+    PedidoListo: bool
+    def __init__(self, Total:float, NumeroMesa:int):
         self.NumeroPedido = NumeroPedido
         self.Fecha = Fecha
         self.Total = Total
