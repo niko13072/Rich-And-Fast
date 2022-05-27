@@ -16,7 +16,12 @@ class Producto(): # aqui va el numero de la clase, si depronto ella hereda de ot
     def EliminarProducto():
         print("selecione el producto a eliminar")
     
-
+    
+if __name__ == '__main__':
+    producto1 = Producto('Hamburguesa','Pizza')
+    print(producto1)
+    producto2 =Producto('Gaseosa','Jugos')
+    print(producto2) 
 
 
 
