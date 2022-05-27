@@ -19,6 +19,8 @@ list.append(Valoracion('nombre',str.Angelica,))
 list.append(Valoracion('Pedido',2,'hamburguesas'))
 
 
+
+
 for obj in list:
     print(obj.Valoracion, sep ='')
     

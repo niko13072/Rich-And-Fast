@@ -19,11 +19,5 @@ class Administrador(Usuario):
     def ActualizarPrecios(self):
         print("precio actualizado")
     
-    
-    
-
-
-    
-    
 
 
