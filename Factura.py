@@ -1,5 +1,4 @@
-import imp
-from Pedido import Pedido
+import Pedido
 
 class Factura(Pedido):
 
@@ -9,4 +8,12 @@ class Factura(Pedido):
 
     def ComprobarVenta(self):
         print("Venta realizada con exito")
+
+
+list = [] 
+
+list.append(pedido())
+
+
+    
         
