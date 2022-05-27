@@ -14,11 +14,12 @@ class Caja():
         print("Factura")
         return
 
+
 list = []
 
-list.append(Usuario())
-list.append(Usuario('calificacion', 10) )
-list.append(Usuario('Cliente:cliente', 2) )
+list.append(Caja('id',1005813642))
+list.append(Caja('constraseña', 1020) )
+
 
 for obj in list:
-    print(obj.calificacion, obj.comentario, obj.Cliente:cliente, sep =' ')
+    print( obj.Caja, sep =' ')

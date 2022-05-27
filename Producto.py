@@ -2,10 +2,10 @@ class Producto(): # aqui va el numero de la clase, si depronto ella hereda de ot
     
     Descripcion=str
 
-    def __init__(self, NombreProducto:str, Precio:float): # aqui se definen los atributos
-        self.NombreProducto = NombreProducto # aqui se coloca tambien cada uno 
-        self.Precio = Precio
-        self.Descripcion = Descripcion
+    def __init__(self, nombreProducto:str, precio:float): # aqui se definen los atributos
+        self.NombreProducto = nombreProducto # aqui se coloca tambien cada uno 
+        self.Precio = precio
+        
     
     def CrearProducto(self):  #estas son los metodos o las funciones de las clase les puse un print por que ahi se debe mirar que hace cada clase
         print("Datos del nuevo Prodcuto")

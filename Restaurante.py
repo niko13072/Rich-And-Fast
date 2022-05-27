@@ -3,13 +3,13 @@ from mimetypes import init
 
 class Restaurante():
 
-    CantidadMesas:int
-    CantidadEmpleados:int
+    cantidadMesas:int
+    cantidadEmpleados:int
 
-    def __init__(self,NombreRestaurante=str):
-        self.NombreRestaurante = NombreRestaurante
-        self.CantidadMesas = CantidadMesas
-        self.CantidadEmpleados = CantidadEmpleados
+    def __init__(self,nombreRestaurante:str):
+        self.NombreRestaurante = nombreRestaurante
+        
+    
 
     def GenerarVentas(self):
         print("las ventas fueron")

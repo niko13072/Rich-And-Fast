@@ -1,5 +1,6 @@
 import Cliente
 
+
 class Valoracion():
 
     comentario:str
@@ -13,11 +14,14 @@ class Valoracion():
 
 list = []
 
-list.append(Cliente())
-list.append(Cliente('calificacion', 10) )
-list.append(Cliente('Cliente:cliente', 2) )
+list.append(Valoracion('numeroMesa',3))
+list.append(Valoracion('nombre',str.Angelica,))
+list.append(Valoracion('Pedido',2,'hamburguesas'))
+
 
 for obj in list:
-    print(obj.calificacion, obj.comentario, obj.Cliente:cliente, sep =' ')
+    print(obj.Valoracion, sep ='')
+    
+
 
     
