@@ -1,14 +1,23 @@
-from Cliente import Cliente
-
+import Cliente
 
 class Valoracion():
 
-    def __init__(self,calificacion:int,comentario:str,cliente:Cliente):
-        self.Calificacion = calificacion
-        self.Comentario = comentario
+    comentario:str
+    calificacion:int
+
+    def __init__(self,cliente:Cliente):
         self.Cliente = cliente
+    
+    def UbicarRestaurante(self):
+        return
 
-    def CalificarServicio(self):
-        print("Comentario")
+list = []
 
-        "ANA"
+list.append(Cliente())
+list.append(Cliente('calificacion', 10) )
+list.append(Cliente('Cliente:cliente', 2) )
+
+for obj in list:
+    print(obj.calificacion, obj.comentario, obj.Cliente:cliente, sep =' ')
+
+    
