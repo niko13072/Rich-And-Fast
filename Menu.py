@@ -1,4 +1,3 @@
-
 class Menu():
 
     def __init__(self, Nombre=str, Categoria=str):
