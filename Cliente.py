@@ -6,12 +6,13 @@ class Cliente(Usuario):
 
     CodigoQr:str
     Telefono:int
-    id:str
+
 
     def __init__(self,numeroMesa:str, pedido:Pedido):
         super().__init__(id)
         self.NumeroMesa = numeroMesa
         self.Pedido = pedido
+      
        
     def EscanearCodigo(self):
          print("escaneo codigo") 
