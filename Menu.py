@@ -14,7 +14,7 @@ class Menu():
         return (self.Nombre,self.Categoria)
 
    
-list[]
+list = []
 
 list.append(Menu('nombreProducto', Hamburguesa))
 list.append(Menu('precio', 8000))

@@ -30,7 +30,7 @@ class Usuario():
 
          return
 
-list[]
+list = []
 
 list.append(Usuario('numeroMesa', 3))
 list.append(Usuario('pedido', Hamburguesa))
