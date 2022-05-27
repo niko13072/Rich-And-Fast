@@ -1,7 +1,13 @@
+from Usuario import Usuario
+
 class Caja():
-    def __init__(self, Cambio=float,Pago=float):
-        self.Cambio = Cambio
-        self.Pago = Pago
+    dineroCaja:float
+    medioDePago:float
+       
+    def __init__(self, usuario:Usuario):
+        self.DineroCaja = dineroCaja
+        self.Usuario = usuario
+        self.MedioDePago = medioDePago
 
 
 
