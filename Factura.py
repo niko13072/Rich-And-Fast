@@ -12,10 +12,9 @@ class Factura():
         
     def ComprobarVenta(self):
         print("Venta realizada con exito")
-
         return
 
-list[]
+list = []
 
 list.append(Factura('detallePedido', Hamburguesa,perro))
 list.append(Factura('numeroMesa', 3))

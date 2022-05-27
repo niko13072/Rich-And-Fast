@@ -14,7 +14,7 @@ class DetallePedido():
         
         return
 
-list[]
+list = []
 
 list.append(DetallePedido('nombreProducto', Hamburguesa))
 list.append(DetallePedido('precio', 8000))
