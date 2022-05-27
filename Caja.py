@@ -1,4 +1,4 @@
-from Usuario import Usuario
+import Usuario
 
 class Caja():
     dineroCaja:float
