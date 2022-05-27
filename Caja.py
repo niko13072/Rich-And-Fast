@@ -5,14 +5,20 @@ class Caja():
     medioDePago:float
        
     def __init__(self, usuario:Usuario):
-        self.DineroCaja = dineroCaja
         self.Usuario = usuario
-        self.MedioDePago = medioDePago
-
-
 
     def CalcularCambio(self):
         print("su cambio es")
     
     def GenerarFactura(self):
         print("Factura")
+        return
+
+list = []
+
+list.append(Usuario())
+list.append(Usuario('calificacion', 10) )
+list.append(Usuario('Cliente:cliente', 2) )
+
+for obj in list:
+    print(obj.calificacion, obj.comentario, obj.Cliente:cliente, sep =' ')

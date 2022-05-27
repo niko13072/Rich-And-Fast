@@ -1,4 +1,5 @@
 from Usuario import Usuario
+import Pedido
 
 
 class Cliente(Usuario):
@@ -6,9 +7,10 @@ class Cliente(Usuario):
     CodigoQr:str
     Telefono:int
 
-    def __init__(self,numeroMesa:str, nombre:str, id:str):
+    def __init__(self,numeroMesa:str, nombre:str, id:str, pedido:Pedido):
         super().__init__()
         self.NumeroMesa = numeroMesa
+        self.Pedido = pedido
        
     def EscanearCodigo(self):
          print("escaneo codigo")
