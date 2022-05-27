@@ -20,16 +20,6 @@ class Usuario():
                 def Registrar(self):
                  print("Usuario Creado")
         
-Id= str(input("Ingrese el ID de usuario: "))
-Contraseña= str(input("Ingrese la contraseña de usuario: "))
-Cargo= str(input("Ingrese el cargo del usuario: "))
-Nombre= str(input("Ingrese el Nombre del usuario: "))
-Documento= int(input("Ingrese el documento del usuario: "))
-Edad= int(input("Ingrese la edad del usuario: "))
-Sexo= str(input("Ingrese el sexo del usuario:"))
-
-usuario1 = Usuario( Id,Cargo,Nombre,Documento,Edad,Sexo)
-usuario1.Password
 
 
 
