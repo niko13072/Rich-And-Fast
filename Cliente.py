@@ -6,8 +6,9 @@ class Cliente(Usuario):
 
     CodigoQr:str
     Telefono:int
+    id:str
 
-    def __init__(self,numeroMesa:str, nombre:str, id:str, pedido:Pedido):
+    def __init__(self,numeroMesa:str, nombre:str, pedido:Pedido):
         super().__init__(nombre,id)
         self.NumeroMesa = numeroMesa
         self.Pedido = pedido

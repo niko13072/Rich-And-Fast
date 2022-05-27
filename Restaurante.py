@@ -1,6 +1,12 @@
+from mimetypes import init
+
+
 class Restaurante():
 
-    def __init__(self,NombreRestaurante=str,CantidadMesas=int,CantidadEmpleados=int,):
+    CantidadMesas:int
+    CantidadEmpleados:int
+
+    def __init__(self,NombreRestaurante=str):
         self.NombreRestaurante = NombreRestaurante
         self.CantidadMesas = CantidadMesas
         self.CantidadEmpleados = CantidadEmpleados
