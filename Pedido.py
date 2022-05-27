@@ -4,6 +4,7 @@ class Pedido():
     NumeroPedido: int
     pedidoCancelado: bool 
     PedidoListo: bool
+    
     def __init__(self, Total:float, NumeroMesa:int):
         self.NumeroPedido = NumeroPedido
         self.Fecha = Fecha
