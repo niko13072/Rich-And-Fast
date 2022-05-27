@@ -27,6 +27,17 @@ class Usuario():
 
      def Registrar(self):
          print("Usuario Creado")
+
+         return
+
+list[]
+
+list.append(Usuario('numeroMesa', 3))
+list.append(Usuario('pedido', Hamburguesa))
+
+for obj in list:
+    print( obj.Usuario, sep = ' ')
+
         
 
 
