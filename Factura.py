@@ -20,6 +20,9 @@ list[]
 list.append(Factura('detallePedido', Hamburguesa,perro))
 list.append(Factura('numeroMesa', 3))
 
+for obj in list:
+    print( obj.Factura, sep =' ')
+
 
 
 
