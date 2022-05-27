@@ -1,6 +1,8 @@
 class Ubicacion():
 
-    def __init__(self, Direccion=str, Ciudad=str, Pais=str):
+    Pais:str
+
+    def __init__(self, Direccion=str, Ciudad=str):
         self.Direccion = Direccion
         self.Ciudad = Ciudad
         self.Pais = Pais
