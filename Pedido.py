@@ -1,19 +1,28 @@
+import DetallePedido
+import Factura
+
 class Pedido():
 
-    Fecha: str
-    NumeroPedido: int
-    def __init__(self, Total:float, NumeroMesa:int, PedidoCancelado:bool, PedidoListo:bool):
-        self.NumeroPedido = NumeroPedido
-        self.Fecha = Fecha
-        self.Total = Total
-        self.NumeroMesa = NumeroMesa
-        self.PedidoCancelado = PedidoCancelado
-        self.PedidoLisro = PedidoListo
+    Factura: Factura
+    Total:float
+    PedidoListo:bool
+    PedidoCancelado:bool
+    NumeroPedido:int
+    Fecha:str
 
+    
 
-    def ModificarPedido(self):
-        print("Seleccione el producto a modificar")
-
+    def __init__(self,detallePedido:DetallePedido,numeroMesa:int):
+        self.DetallePedido = detallePedido
+        self.NumeroMesa = numeroMesa
+    
+    def ModificarMenu(self):
+        return
+    
     def RealizarPedido(self):
-        print("RealizarPedido")
+        return
+        
+        
+
+    
         

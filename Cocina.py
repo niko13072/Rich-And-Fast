@@ -1,15 +1,16 @@
 from numpy import array
-import Pedido
 import Producto
+import Pedido
 
 class Cocina():
 
-    def __init__(self,TiempoPreparacion:float):
-      
-        self.TiempoPreparacion = TiempoPreparacion
+    Producto:Producto
 
-        
-        
+    def __init__(self,TiempoPreparacion:float,pedido:Pedido):
+        self.TiempoPreparacion = TiempoPreparacion
+        self.Pedido=pedido
+       
+
     
     def PrepararPedido(self):
         print("Cocinando Pedido")

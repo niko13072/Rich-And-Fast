@@ -1,18 +1,20 @@
 import Pedido
+import Caja
 
-class Factura(Pedido):
+class Factura():
 
-    def __init__(self, Cambio=float, Pago=float):
+    Pago:float
+
+    def __init__(self, Cambio:float, Pedido:Pedido,caja:Caja):
         self.Cambio = Cambio
-        self.Pago = Pago
-
+        self.Pedido = Pedido
+        self.Caja= caja
+        
     def ComprobarVenta(self):
         print("Venta realizada con exito")
 
 
-list = [] 
 
-list.append(pedido())
 
 
     

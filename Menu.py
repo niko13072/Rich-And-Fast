@@ -1,9 +1,11 @@
+import Producto
+
 class Menu():
 
-    def __init__(self, Nombre=str, Categoria=str):
-        self.Nombre = Nombre
-        self.Categoria = Categoria
-        
+    Categoria:str
+
+    def __init__(self,producto:Producto):
+        self.Producto = producto
 
     def MostrarProducto(self): 
         print(f"Nombre: ", self.NombreProducto, "Precio: " ,self.Precio, "Descripcion: ", self.Descripcion)
