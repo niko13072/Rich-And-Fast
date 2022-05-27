@@ -1,23 +1,20 @@
-from ast import Str
 from Usuario import Usuario
 
 
 class Cliente(Usuario):
 
-    CodigoQr:Str
+    CodigoQr:str
     Telefono:int
 
-        def __init__(self,numeroMesa):
-            super().__init__()
-            self.NumeroMesa = numeroMesa
+    def __init__(self,numeroMesa:str, nombre:str, id:str):
+        super().__init__()
+        self.NumeroMesa = numeroMesa
        
-        def EscanearCodigo(self):
+    def EscanearCodigo(self):
          print("escaneo codigo")
     
-        def RealizarPedido(self):
+    def RealizarPedido(self):
          print("Su pedido es")
     
-        def SeleccionarProducto(self):
+    def SeleccionarProducto(self):
          print("productos seleccionados")
-
-        
