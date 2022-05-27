@@ -9,13 +9,14 @@ class Usuario():
      Edad:int
      Sexo:str
      Nombre:str
+     Cliente:Cliente
+     Administrador:Administrador
 
 
-     def __init__(self, id:int,contrasena:str,cliente:Cliente,administrador:Administrador):
+     def __init__(self, id:int,contrasena:str):
              self.Id=id
              self.Contraseña=contrasena
-             self.Cliente=cliente
-             self.Administrador=administrador
+             
 
                 
      def VerificarUsuario(self):
