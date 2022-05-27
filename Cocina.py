@@ -24,6 +24,9 @@ list = []
 list.append(Cocina('nombreProducto', Hamburguesa))
 list.append(Cocina('precio', 8000))
 
+list.append(Cocina('detallePedido', Hamburguesa, perro))
+list.append(Cocina('numeroMesa', 3))
+
 for obj in list:
     print( obj.Cocina, sep =' ')
 
