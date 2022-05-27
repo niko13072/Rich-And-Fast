@@ -17,6 +17,15 @@ class Cocina():
     
     def ConfirmarPedido(self):
         print("Pedido Listo")
+        return
+
+list = []
+
+list.append(Cocina('nombreProducto', Hamburguesa))
+list.append(Cocina('precio', 8000))
+
+for obj in list:
+    print( obj.Cocina, sep =' ')
 
 
         

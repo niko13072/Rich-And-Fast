@@ -11,7 +11,6 @@ class DetallePedido():
 
     def CalcularPrecio(self):
         print("Precio")
-        
         return
 
 list = []
