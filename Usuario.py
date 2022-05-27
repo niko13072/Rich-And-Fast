@@ -6,17 +6,19 @@ class Usuario():
      Sexo:str
 
 
-     def __init__(self, id:int,contrsena:str):
-             
+     def __init__(self, id:int,contrasena:str):
+             self.Id=id
+             self.Contraseña=contrasena
+
                 
-                def VerificarUsuario(self):
-                 print("el usuario es valido")
+     def VerificarUsuario(self):
+         print("el usuario es valido")
 
-                def ActualizarDatos(self):
-                 print("datos actualizados")
+     def ActualizarDatos(self):
+         print("datos actualizados")
 
-                def Registrar(self):
-                 print("Usuario Creado")
+     def Registrar(self):
+         print("Usuario Creado")
         
 
 
