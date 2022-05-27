@@ -1,5 +1,6 @@
 class Producto(): # aqui va el numero de la clase, si depronto ella hereda de otra se coloca entre parentesis (de quien hereda)
     
+    
     Descripcion=str
 
     def __init__(self, nombreProducto:str, precio:float): # aqui se definen los atributos
@@ -15,8 +16,13 @@ class Producto(): # aqui va el numero de la clase, si depronto ella hereda de ot
     
     def EliminarProducto():
         print("selecione el producto a eliminar")
-    
 
+
+if __name__ == '__main__':
+    producto1 = Producto('Hamburguesa','Pizza')
+    print(producto1)
+    producto2 =Producto('Gaseosa','Jugos')
+    print(producto2) 
 
 
 
