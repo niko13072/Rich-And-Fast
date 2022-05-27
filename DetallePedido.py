@@ -19,3 +19,6 @@ list[]
 list.append(DetallePedido('nombreProducto', Hamburguesa))
 list.append(DetallePedido('precio', 8000))
 
+for obj in list:
+    print( obj.DetallePedido, sep = ' ')
+
