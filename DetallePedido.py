@@ -12,4 +12,10 @@ class DetallePedido():
     def CalcularPrecio(self):
         print("Precio")
         
+        return
+
+list[]
+
+list.append(DetallePedido('nombreProducto', Hamburguesa))
+list.append(DetallePedido('precio', 8000))
 
