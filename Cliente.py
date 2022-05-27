@@ -13,7 +13,7 @@ class Cliente(Usuario):
         self.Pedido = pedido
        
     def EscanearCodigo(self):
-         print("escaneo codigo")
+         print("escaneo codigo") 
     
     def RealizarPedido(self):
          print("Su pedido es")
