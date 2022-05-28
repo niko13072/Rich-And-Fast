@@ -21,3 +21,7 @@ list.append(DetallePedido('precio', 8000))
 for obj in list:
     print( obj.DetallePedido, sep = ' ')
 
+if __name__=='__main__':
+    DetallePedido1 = DetallePedido(3,15000,'Hamburguesa')
+    print(DetallePedido1)
+    

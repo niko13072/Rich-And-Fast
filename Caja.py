@@ -25,4 +25,5 @@ for obj in list:
     print( obj.Caja, sep =' ')
 
 if __name__=='__main__':
-    usuario1 = Usuario
+    caja1 = Caja('richAndFast')
+    

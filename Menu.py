@@ -22,7 +22,9 @@ list.append(Menu('precio', 8000))
 for obj in list:
     print( obj.Menu, sep = ' ')
 
-
+if __name__=='__main__':
+    Menu1=Menu('hamburguesa')
+    print(Menu1)
 
 
     

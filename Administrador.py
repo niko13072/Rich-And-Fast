@@ -21,5 +21,5 @@ class Administrador(Usuario):
     
 if __name__=='__main__':
     administrador1 = Administrador(100581364,'contrasena','richandfast@gmail.com')
-
+    print(administrador1)
 
