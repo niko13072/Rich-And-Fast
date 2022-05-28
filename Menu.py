@@ -16,7 +16,7 @@ class Menu():
    
 list = []
 
-list.append(Menu('nombreProducto', Hamburguesa))
+list.append(Menu('nombreProducto',str.Hamburguesa))
 list.append(Menu('precio', 8000))
 
 for obj in list:

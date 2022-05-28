@@ -33,7 +33,7 @@ class Usuario():
 list = []
 
 list.append(Usuario('numeroMesa', 3))
-list.append(Usuario('pedido', Hamburguesa))
+list.append(Usuario('pedido', str.Hamburguesa))
 
 for obj in list:
     print( obj.Usuario, sep = ' ')

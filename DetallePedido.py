@@ -15,7 +15,7 @@ class DetallePedido():
 
 list = []
 
-list.append(DetallePedido('nombreProducto', Hamburguesa))
+list.append(DetallePedido('nombreProducto', str.Hamburguesa))
 list.append(DetallePedido('precio', 8000))
 
 for obj in list:
