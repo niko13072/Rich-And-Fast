@@ -22,7 +22,15 @@ class Pedido():
     def RealizarPedido(self):
         return
         
-        
+list = []
 
-    
+list.append(Pedido('pedido', str.Perro, str.hamburguesa))
+list.append(Pedido('caja', 6000))
+
+list.append(Pedido('cantidadProducto', 3))
+list.append(Pedido('valorUnitario', 8000))
+list.append(Pedido('producto', str.perro))   
+
+for obj in list:
+    print( obj.Pedido, sep = ' ')
         
