@@ -6,8 +6,8 @@ class Cocina():
 
     Producto:Producto
 
-    def __init__(self,TiempoPreparacion:float,pedido:Pedido):
-        self.TiempoPreparacion = TiempoPreparacion
+    def __init__(self,tiempoPreparacion:float,pedido:Pedido):
+        self.TiempoPreparacion = tiempoPreparacion
         self.Pedido=pedido
        
 
