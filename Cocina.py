@@ -16,8 +16,10 @@ class Cocina():
         print("Cocinando Pedido")
     
     def ConfirmarPedido(self):
-        print("Pedido Listo")
-        return
+        if self.Pedido == True:
+            print("Pedido confirmado")
+        else:
+            print("Corregir pedido")
 
 list = []
 
