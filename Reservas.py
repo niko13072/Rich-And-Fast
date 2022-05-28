@@ -4,9 +4,9 @@ class Reservas():
     NumReserva:int
 
     def __init__(self, fecha:str, hora:float, nombreReserva:str, usuario:Usuario):
-       self.Fecha = Fecha
-       self.Hora = Hora
-       self.NombreReserva = NombreReserva
+       self.Fecha = fecha
+       self.Hora = hora
+       self.NombreReserva = nombreReserva
        self.Usuario = usuario
 
     def EnviarNotificacion(self):
