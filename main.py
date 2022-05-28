@@ -16,4 +16,4 @@ usuario2.Nombre='ana'
 usuario3=Usuario(12,'abc12345')
 usuario3.Nombre='Laura'
 
-Pedido1 = Pedido(producto1,usuario1)
+Pedido1 = Pedido()
