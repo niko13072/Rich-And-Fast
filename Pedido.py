@@ -35,5 +35,6 @@ for obj in list:
     print( obj.Pedido, sep = ' ')
 
 if __name__=='__main__':
-    Pedido1=Pedido()
+    Pedido1=Pedido('pizza',3)
+    print(Pedido1)
         

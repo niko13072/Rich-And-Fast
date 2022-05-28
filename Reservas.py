@@ -14,3 +14,7 @@ class Reservas():
 
     def CrearReserva(self):
         print("Crear la reserva")
+        
+if __name__=='__main__':
+    Reserva1=Reservas(10,2,'Cumpleaños','Karen')
+    print(Reserva1)
