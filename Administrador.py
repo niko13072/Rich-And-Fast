@@ -19,5 +19,7 @@ class Administrador(Usuario):
     def ActualizarPrecios(self):
         print("precio actualizado")
     
-
+if __name__=='__main__':
+    administrador1 = Administrador('100581364','contrasena','richandfast@gmail.com')
+    
 
