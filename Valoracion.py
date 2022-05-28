@@ -23,6 +23,10 @@ list.append(Valoracion('Pedido',2,'hamburguesas'))
 
 for obj in list:
     print(obj.Valoracion, sep ='')
+
+if __name__=='__main__':
+    Valoracion1=Valoracion('Angelika')
+    print(Valoracion1)
     
 
 
