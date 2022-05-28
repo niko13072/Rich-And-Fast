@@ -3,7 +3,7 @@ from Usuario import Usuario
 class Reservas():
     NumReserva:int
 
-    def __init__(self, Fecha:str, Hora:float, NombreReserva:str, usuario:Usuario):
+    def __init__(self, fecha:str, hora:float, nombreReserva:str, usuario:Usuario):
        self.Fecha = Fecha
        self.Hora = Hora
        self.NombreReserva = NombreReserva
