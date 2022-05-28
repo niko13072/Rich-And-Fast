@@ -22,3 +22,8 @@ class Cliente(Usuario):
     
     def SeleccionarProducto(self):
          print("productos seleccionados")
+
+if __name__=='__main__':
+     cliente1 = Cliente(3,'2 hamburguesas')
+     print(cliente1)
+     
