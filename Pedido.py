@@ -20,7 +20,7 @@ class Pedido():
         return
     
     def RealizarPedido(self):
-        return
+        print("pedido realizado")
         
         
 
