@@ -6,16 +6,16 @@ class Restaurante():
 
     cantidadMesas:int
     cantidadEmpleados:int
-    Valoracion:Valoracion
-    Administrador:Administrador
-    Reserva:Reserva
+    valoracion:Valoracion
+    vdministrador:Administrador
+    reserva:Reserva
 
-    def __init__(self,nombreRestaurante:str, cocina:cocina, ubicacion:ubicacion, menu:menu, caja:caja ):
+    def __init__(self,nombreRestaurante:str, cocina:Cocina, ubicacion:Ubicacion, menu:Menu, caja:caja ):
         self.NombreRestaurante = nombreRestaurante
         self.Cocina = cocina
-        self.Ubicacion = Ubicacion 
+        self.Ubicacion = ubicacion 
         self.Menu = Menu
-        self.Caja = Caja
+        self.Caja = caja
     
 
     def GenerarVentas(self):
@@ -28,8 +28,8 @@ list.append(Restaurante('cliente',str.Valeria))
 
 list.append(Restaurante('producto',str.Hamburguesa))
 
-list.append(Restaurante('fecha', str.12enero))
-list.append(Restaurante('hora',str.3pm))
+list.append(Restaurante('fecha',12))
+list.append(Restaurante('hora',3))
 list.append(Restaurante('nombreReserva',str.Valeria))
 list.append(Restaurante('usuario',str.Valeria1205))
 
