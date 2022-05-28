@@ -33,4 +33,7 @@ list.append(Pedido('producto', str.perro))
 
 for obj in list:
     print( obj.Pedido, sep = ' ')
+
+if __name__=='__main__':
+    Pedido1=Pedido()
         

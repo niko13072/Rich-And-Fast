@@ -25,4 +25,5 @@ for obj in list:
     print( obj.Caja, sep =' ')
 
 if __name__=='__main__':
+    caja1 = Caja('richAndFast')
     

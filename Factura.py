@@ -22,6 +22,10 @@ list.append(Factura('numeroMesa', 3))
 for obj in list:
     print( obj.Factura, sep = ' ')
 
+if __name__=='__main__':
+    Factura1= Factura('Pedido','caja')
+    print(Factura1)
+
 
 
 

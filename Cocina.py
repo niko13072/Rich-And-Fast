@@ -16,8 +16,10 @@ class Cocina():
         print("Cocinando Pedido")
     
     def ConfirmarPedido(self):
-        print("Pedido Listo")
-        return
+        if self.Pedido == True:
+            print("Pedido confirmado")
+        else:
+            print("Corregir pedido")
 
 list = []
 
@@ -30,6 +32,8 @@ list.append(Cocina('numeroMesa', 3))
 for obj in list:
     print( obj.Cocina, sep =' ')
 
-
+if __name__=='__main__':
+    cocina1 = Cocina(15,'2 pizzas')
+    print(cocina1)
         
         
