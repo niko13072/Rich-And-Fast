@@ -38,6 +38,15 @@ list.append(Usuario('pedido', str.Hamburguesa))
 for obj in list:
     print( obj.Usuario, sep = ' ')
 
+usuario1=Usuario(10,'abc123')
+usuario1.Nombre='nicolas'
+print(usuario1)
+usuario2=Usuario(11,'abc1234')
+usuario2.Nombre='ana'
+print(usuario2)
+usuario3=Usuario(12,'abc12345')
+usuario3.Nombre='Laura'
+print(usuario3)
         
 
 
