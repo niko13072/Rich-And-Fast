@@ -4,18 +4,19 @@ from tkinter import Menu
 
 class Restaurante():
 
-    cantidadMesas:int
-    cantidadEmpleados:int
-    valoracion:Valoracion
-    vdministrador:Administrador
-    reserva:Reserva
+    nombreRestaurante:str
 
-    def __init__(self,nombreRestaurante:str, cocina:Cocina, ubicacion:Ubicacion, menu:Menu, caja:caja ):
-        self.NombreRestaurante = nombreRestaurante
+    def _init_(self, cocina:Cocina, cantidadMesas:int, cantidadEmpleados:int, valoracion:Valoracion, administrador:Administrador, reserva:Reserva, ubicacion:Ubicacion, menu:Menu, caja:Caja ):
+
         self.Cocina = cocina
         self.Ubicacion = ubicacion 
-        self.Menu = Menu
+        self.Menu = menu
         self.Caja = caja
+        self.CantidadMesas = cantidadMesas
+        self.CantidadEmpleados = cantidadEmpleados
+        self.Valoracion = valoracion
+        self.Administrador = administrador
+        self.Reserva = reserva
     
 
     def GenerarVentas(self):
