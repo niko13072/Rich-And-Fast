@@ -23,3 +23,6 @@ list.append(Caja('constraseña', 1020) )
 
 for obj in list:
     print( obj.Caja, sep =' ')
+
+if __name__=='__main__':
+    
