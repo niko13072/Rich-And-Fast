@@ -19,9 +19,9 @@ class Producto(): # aqui va el numero de la clase, si depronto ella hereda de ot
 
 
 if __name__ == '__main__':
-    producto1 = Producto('Hamburguesa','Pizza')
+    producto1 = Producto('Hamburguesa',13000)
     print(producto1)
-    producto2 =Producto('Gaseosa','Jugos')
+    producto2 =Producto('Gaseosa',5000)
     print(producto2) 
 
 
